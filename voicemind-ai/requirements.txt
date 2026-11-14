@@ -1,0 +1,17 @@
+# VoiceMind AI - install with:  pip install -r requirements.txt
+# Recommended Python: 3.11 or 3.12
+streamlit>=1.35
+flask>=3.0
+requests>=2.31
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+joblib>=1.3
+nltk>=3.9
+spacy>=3.7
+sumy>=0.11
+plotly>=5.20
+pytest>=8.0
+# Speech recognition (pretrained Whisper, inference only). Needs ffmpeg on PATH.
+torch
+openai-whisper
